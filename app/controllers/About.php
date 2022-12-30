@@ -2,9 +2,9 @@
 
 class About
 {
-    public function index($nama = 'Divia', $umur = '20')
+    public function index($nama = 'Adivia', $umur = '20')
     {
-        echo "Hi! My name is $nama, I'm $umur years old.";
+        echo "Hi! My name is $nama and I'm $umur years old.";
     }
     public function page()
     {
