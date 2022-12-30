@@ -28,7 +28,6 @@ class App
         //params
         if (!empty($url)) {
             $this->params = array_values($url);
-            var_dump($url);
         }
         //run controller & method and send params if any
         call_user_func_array([$this->controller, $this->method], $this->params);
