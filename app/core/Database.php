@@ -10,9 +10,9 @@ class Database
                 "name"=>"Adivia Khusnul Aisha",
                 "email"=>"adiviaka@gmail.com"
             ],
-            ["id"=>2,
-            "name"=>"Alya Zahra Fatikha",
-            "email"=>"alyasemarang@gmail.com"
+                ["id"=>2,
+                "name"=>"Alya Zahra Fatikha",
+                "email"=>"alyasemarang@gmail.com"
             ]
             ],
             "project"=>[
