@@ -64,6 +64,10 @@ class Database
         return $this->stmt->fetch(PDO::FETCH_ASSOC);
     }
 
+    public function rowCount(){
+        return $this->stmt->rowCount();
+    }
+
         // $_SESSION['database'] = [
         //     "user"=>[
         //         ["id"=>1,
